@@ -1,17 +1,14 @@
 package seleniumBasicCommands;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import org.apache.poi.sl.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.WebDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LaunchChrome {
 

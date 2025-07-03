@@ -16,6 +16,11 @@ public class List1 {
 		myList.add("Grape");
 		myList.add("Strawberry");
 		myList.add("Grape");
+		
+		for (String fruitsi : myList) {
+			
+			System.out.println(fruitsi+" These are the list of fruits");
+		}
 
 		System.out.println(myList.get(2));
 		System.out.println("Before Sort : " + myList);

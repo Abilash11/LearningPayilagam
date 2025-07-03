@@ -31,12 +31,21 @@ public class HashMap_Practice {
 		  
 		  for(String Value : map.values())
 		  {
-			  System.out.print("Print value of the element using Value " + Value );
+			  System.out.println("Print value of the element using Value " + Value );
 		  }
 		  		
 		// Get values using keyset
 		
-		  
+		  for (String Key : map.keySet())
+		  {
+			  
+			  System.out.println("Using Key Set concept");
+			  System.out.println("Key: " + Key);
+
+			  System.out.println("Value: " + map.get(Key));
+			  
+			  
+		  }
 		  
 		  
 	}

@@ -14,8 +14,7 @@ public class HashMap_Practice {
 		
 		System.out.println("customer1: "+ map.get("customer1"));
 		System.out.println("customer: "+ map.get("customer2"));
-		
-		
+			
 		//Get both Keys and Values using EntrySet
 		  for(HashMap.Entry<String, String> entry : map.entrySet())
 		  {

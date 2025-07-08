@@ -17,8 +17,7 @@ public class DuplicateRemovedUsinngSB {
 		for( int i =0; i<=sb.length()-1; i++)
 
 		{
-			
-			
+		
 			for (int j = i+1; j<=sb.length()-1; j++)
 			{
 				char c1 = sb.charAt(i);

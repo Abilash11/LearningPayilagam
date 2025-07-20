@@ -10,7 +10,8 @@ public class DuplicateRemovedUsinngSB {
 //		String word = "programming";
 		
 		Scanner sc = new Scanner(System.in);
-		String Word =   sc.next();
+		//String Word =   sc.next(); ignores the space
+		String Word =   sc.nextLine(); 
 		
 		StringBuilder sb = new  StringBuilder(Word);
 

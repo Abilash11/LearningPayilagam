@@ -15,7 +15,7 @@ public class DuplicateString {
 			
 		{
 			
-			for(int j =i+1; j<Dupli.length; j++)
+			for(int j =i+1; j<Dupli.length; j++)   // Abi Bhr concept
 				
 			{
 				if( Dupli[i] == Dupli[j])

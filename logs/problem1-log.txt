@@ -1,0 +1,33 @@
+2025-08-15T00:15:19.696+05:30  INFO 11024 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : Starting LearningPayilagamApplication using Java 17.0.16 with PID 11024 (/home/ram/IdeaProjects/LearningPayilagam/target/classes started by ram in /home/ram/IdeaProjects/LearningPayilagam)
+2025-08-15T00:15:19.701+05:30  INFO 11024 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-08-15T00:15:21.372+05:30  INFO 11024 --- [LearningPayilagam] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-15T00:15:21.393+05:30  INFO 11024 --- [LearningPayilagam] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-15T00:15:21.394+05:30  INFO 11024 --- [LearningPayilagam] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-15T00:15:21.458+05:30  INFO 11024 --- [LearningPayilagam] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-15T00:15:21.459+05:30  INFO 11024 --- [LearningPayilagam] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1652 ms
+2025-08-15T00:15:22.047+05:30  INFO 11024 --- [LearningPayilagam] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-15T00:15:22.060+05:30  INFO 11024 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : Started LearningPayilagamApplication in 3.594 seconds (process running for 4.189)
+2025-08-15T00:16:58.956+05:30  INFO 11024 --- [LearningPayilagam] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-15T00:16:58.961+05:30  INFO 11024 --- [LearningPayilagam] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-15T00:17:05.484+05:30  INFO 11127 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : Starting LearningPayilagamApplication using Java 17.0.16 with PID 11127 (/home/ram/IdeaProjects/LearningPayilagam/target/classes started by ram in /home/ram/IdeaProjects/LearningPayilagam)
+2025-08-15T00:17:05.490+05:30  INFO 11127 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-08-15T00:17:07.458+05:30  INFO 11127 --- [LearningPayilagam] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-15T00:17:07.475+05:30  INFO 11127 --- [LearningPayilagam] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-15T00:17:07.476+05:30  INFO 11127 --- [LearningPayilagam] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-15T00:17:07.541+05:30  INFO 11127 --- [LearningPayilagam] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-15T00:17:07.542+05:30  INFO 11127 --- [LearningPayilagam] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1947 ms
+2025-08-15T00:17:08.170+05:30  INFO 11127 --- [LearningPayilagam] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-15T00:17:08.187+05:30  INFO 11127 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : Started LearningPayilagamApplication in 3.883 seconds (process running for 4.861)
+2025-08-15T00:19:25.352+05:30  INFO 11127 --- [LearningPayilagam] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-15T00:19:25.359+05:30  INFO 11127 --- [LearningPayilagam] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-15T00:20:18.541+05:30  INFO 11262 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : Starting LearningPayilagamApplication using Java 17.0.16 with PID 11262 (/home/ram/IdeaProjects/LearningPayilagam/target/classes started by ram in /home/ram/IdeaProjects/LearningPayilagam)
+2025-08-15T00:20:18.557+05:30  INFO 11262 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-08-15T00:20:20.266+05:30  INFO 11262 --- [LearningPayilagam] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-15T00:20:20.294+05:30  INFO 11262 --- [LearningPayilagam] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-15T00:20:20.295+05:30  INFO 11262 --- [LearningPayilagam] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-15T00:20:20.374+05:30  INFO 11262 --- [LearningPayilagam] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-15T00:20:20.375+05:30  INFO 11262 --- [LearningPayilagam] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1671 ms
+2025-08-15T00:20:21.015+05:30  INFO 11262 --- [LearningPayilagam] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-15T00:20:21.034+05:30  INFO 11262 --- [LearningPayilagam] [main] c.S.L.LearningPayilagamApplication       : Started LearningPayilagamApplication in 3.649 seconds (process running for 4.276)
+2025-08-15T00:20:52.504+05:30  INFO 11262 --- [LearningPayilagam] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-15T00:20:52.510+05:30  INFO 11262 --- [LearningPayilagam] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

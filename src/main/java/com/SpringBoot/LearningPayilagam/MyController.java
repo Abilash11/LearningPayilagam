@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 public class MyController {
     private static final Log logger = LogFactory.getLog(MyController.class);
-
+@Autowired
     private   StudentService  studentService ;
     @Autowired
     public MyController(StudentService studentService)
@@ -76,6 +76,12 @@ public void setStudentService (StudentService studentService)
         logger.info("This is inside put method, age change");
 //        StudentService studentService = new StudentService();
        return studentService.setAge(student);
+    }
+
+    @PostMapping("/save")
+    public   String saveStudent(@RequestBody StudentPo student)
+    {
+        return studentService.saveStudent(student);
     }
 
 

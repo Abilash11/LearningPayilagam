@@ -1,9 +1,14 @@
 package com.SpringBoot.LearningPayilagam;
 
+import jakarta.validation.Valid;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.graphql.GraphQlProperties;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController  //Normal Controller we need to mention return type but in RestController no need to mention the return type
@@ -48,21 +53,31 @@ public void setStudentService (StudentService studentService)
     {
     int result;
     result = first+second;
+
     logger.info("Inside addition method in my controller: ");
     return  "The sum of first and second number is " + result;
     }
 
     @GetMapping("/productMulti")
-   public String MultiplicationOfNumber(@RequestParam int a,@RequestParam int b)
+//   public String MultiplicationOfNumber(@RequestParam int a,@RequestParam int b)
+   public ResponseEntity<?> MultiplicationOfNumber(@RequestParam int a, @RequestParam int b)
         {
             int result;
             logger.info("Multiplying two numbers");
             result = a+b;
-            return  "Multipled two numbers : "+ result;
+
+            if(result!=0){
+                return new ResponseEntity<>(result,HttpStatus.OK);
+            }
+            else
+
+            return new ResponseEntity<>(result,HttpStatus.NOT_FOUND);
+
+//            return  "Multipled two numbers : "+ result;
         }
 
         @PostMapping("/student")
-    public StudentPo nameChange (@RequestBody StudentPo student)
+    public StudentPo nameChange (@Valid @RequestBody StudentPo student)
         {
             logger.info("inside student Save or get name method: ");
 //                 student.setName(student.getName().toUpperCase());
